@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holiday travel discussion</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+</head>
+<body>
+    <header>
+        <div>Team Travelling to Istanbul for New Year Holidays</div>
+        <nav>
+            <ul>
+                <li><a href="#Attendance list">Attendance list</a></li>
+                <li><a href="#Agenda">Agenda</a></li>
+                <li><a href="#From Last Time">From Last Time</a></li>
+                <li><a href="#Things to discuss today">Things to discuss today</a></li>
+                <li><a href="#Forms to fill out">Forms to fill out</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Where to go in Istambul?</h1>
+
+        <section>
+            <h2 id="Attendance list">Attendance list</h2>
+            <ol>
+                <li>Tatiana Bimatova</li>
+                <li>John Johnson</li>
+                <li>Beatrice Red</li>
+                <li>Joshua Tree</li>
+                <li>Darlene Tapia</li>
+            </ol>
+        </section>
+        
+        <section>
+            <h2 id="Agenda">Agenda</h2>
+
+            <p>
+                <span>
+                    <strong>
+                        What are we doing in Istanbul? Proposing different places to see and activities.
+                    </strong>
+                </span>
+            </p>
+
+            <p>
+                <span>
+                    Duration of staying there
+                </span>
+            </p>
+        </section>
+
+        <section>
+            <h2 id="From Last Time">From Last Time</h2>
+
+            <p>
+                Just to remind eveyone. Last time, we've decided to go to <b>Istanbul</b> 
+                for New Year holidays. We started to dicuss how many days we wanna be there.
+            </p>
+        </section>
+
+        <section>
+            <h2 id="Things to discuss today">Things to discuss today</h2>
+            <ol>
+                <li>How many days? <em>Need</em> to decide to get tickets!</li>
+                <li>Where to go</li>
+            </ol>
+
+            <img src="https://images.unsplash.com/photo-1569110462378-8bef8f4d9241?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1871&q=80" 
+                alt="Hagia Sophia Mosque" width="250">
+            <h3>Hagia Sophia Mosque</h3>
+            <p>
+                A mosque and major cultural and historical site in Istanbul, Turkey. 
+                Originally a Greek Orthodox church, the site has changed between 
+                being a mosque to a museum and now presently a mosque again since 
+                the conquest of the Byzantine Empire by the Ottoman Empire. 
+            </p>
+            <br>
+
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Istanbul_asv2021-11_img36_German_Fountain.jpg/600px-Istanbul_asv2021-11_img36_German_Fountain.jpg" 
+                alt="German Fountain" width="250">
+            <h3>German Fountain</h3>
+            <p>
+                A gazebo styled fountain in the northern end of old hippodrome 
+                (Sultanahmet Square), Istanbul, Turkey and across from the Mausoleum 
+                of Sultan Ahmed I. It was constructed to commemorate the second 
+                anniversary of German Emperor Wilhelm II's visit to Istanbul in 1898. 
+                It was built in Germany, then transported piece by piece and assembled 
+                in its current site in 1900. The neo-Byzantine style fountain's 
+                octagonal dome has eight marble columns, and dome's interior is 
+                covered with golden mosaics. 
+            </p>
+            <br>
+
+            <img src="https://images.unsplash.com/photo-1641567782508-eca67c753403?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2322&q=80" 
+                alt="Topkapi Palace" width="250">
+            <h3>Topkapi Palace</h3>
+            <p>
+                A large museum in the east of the Fatih district of Istanbul in Turkey. 
+                From the 1460s to the completion of Dolmabahçe Palace in 1856, it served 
+                as the administrative center of the Ottoman Empire, and was the main 
+                residence of its sultans until the 17th century.
+
+                It was given the name <i>Topkapi</i>, meaning Cannon Gate, in the 19th century.
+                The complex expanded over the centuries, with major renovations after 
+                the 1509 earthquake and the 1665 fire. 
+            </p>
+
+
+        </section>
+       
+        <details>
+            <summary>Check out this video for inspiration</summary>
+            <video width="320" controls>
+                <source src="Istanbul_video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video> 
+        </details> 
+
+        <br>
+
+        <details>
+            <summary>Check out this audio for inspiration</summary>
+            <audio controls>
+                <source src="Istanbul_audio.mp3" type="audio/mp3">
+                Your browser does not support the audio tag.
+            </audio> 
+        </details> 
+
+        <hr>
+
+    </main>
+    <footer>
+        <h5 id="Forms to fill out">Forms to fill out</h5>
+
+            <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname">
+                <br>
+                <br>
+
+            <fieldset>
+                <h5>I want to see:</h5>
+                <input type="checkbox" id="choice1" name="choice1" value="Hagia Sophia">
+                <label for="choice1"> Hagia Sophia Mosque</label><br>
+                <input type="checkbox" id="choice2" name="choice2" value="German Fountain">
+                <label for="choice2"> German Fountain</label><br>
+                <input type="checkbox" id="choice3" name="choice3" value="Topkapi Palace">
+                <label for="choice3"> Topkapi Palace</label><br>
+            </fieldset>
+            <br>
+            
+            <label for="first-place">Where to go first:</label>
+            <input list="places" id="first-place" name="first-place">
+            
+            <datalist id="places">
+                <option value="Hagia Sophia Mosque">
+                <option value="German Fountain">
+                <option value="Topkapi Palace">
+            </datalist>
+            <br>
+            <br>
+
+            <fieldset>
+                <h5>Stay in Istanbul for:</h5>
+                <input type="radio" id="3days" name="3days" value="3 days">
+                <label for="3days">3 days</label><br>
+                <input type="radio" id="5days" name="5days" value="5 days">
+                <label for="5days">5 days</label><br>
+            </fieldset>
+            <br>
+
+
+            <label for="airline-select">Do you have an airline preference?</label>
+
+            <select name="airline" id="airline-select">
+                <option value="">--Please choose an option--</option>
+                <option value="qatar">Qatar</option>
+                <option value="delta">Delta</option>
+                <option value="lufthansa">Lufthansa</option>
+                <option value="klm">KLM</option>
+                <option value="british airways">British Airways</option>
+                <option value="no preference">I don't have a preference</option>
+            </select>
+
+
+
+            <br>
+            <br>
+
+            <label for="suggestions">Please put your suggestions here:</label>
+            <br>
+
+            <textarea id="suggestions" name="suggestions" rows="3" cols="70">
+            </textarea> 
+
+            <br>
+            <br>
+
+            
+
+            <label for="Date">Date:</label>
+            <input type="date" id="Date" name="Date">
+            <br>
+            <br>
+
+            <button>Submit</button>
+
+
+        </form>
+
+        <br>
+        <br>
+
+        <div>&copy; Tatiana Bimatova 2022</div>
+    </footer>
+</body>
+</html>

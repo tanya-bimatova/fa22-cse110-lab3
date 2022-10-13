@@ -1,0 +1,26 @@
+/*Class Selector (.class)*/
+.body {
+  background-color: #abd3f5;
+}
+
+/*Element Selector (element) */
+h1 {
+    color: rgb(13, 6, 117);
+  }
+h2 {
+  background-color: black;
+  color: white;
+}
+span {
+  background-color: rgba(255,255,255,.5);
+}
+
+/*ID Selector (#id)*/
+#Forms-to-fill-out {
+    color: rgb(13, 6, 117);
+}
+
+/*Universal Selector (*)*/
+* {
+    color: darkslategrey;
+}

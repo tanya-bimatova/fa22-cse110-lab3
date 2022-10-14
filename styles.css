@@ -24,3 +24,20 @@ span {
 * {
     color: darkslategrey;
 }
+
+/*Attribute Selector*/
+/* Internal links, beginning with "#" */
+a[href^="#"] {
+  background-color: pink;
+}
+
+/*Pseudo-class Selector*/
+/* Any hyperlink over which the user's pointer is hovering */
+a:hover {
+  background-color: gold;
+}
+
+/*Selector List*/
+h2, h3 {
+  font-family: cursive;
+}

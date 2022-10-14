@@ -28,7 +28,7 @@ span {
 /*Attribute Selector*/
 /* Internal links, beginning with "#" */
 a[href^="#"] {
-  background-color: pink;
+  background-color: hsl(0 80% 50% / 25%);
 }
 
 /*Pseudo-class Selector*/
@@ -68,4 +68,24 @@ h5 + label {
 /*Combining Two Selectors (element.class)*/
 #Intro.general {
   color : green
+}
+
+/*abs units*/
+p {
+  font-size: 20pt;
+  line-height: 40px;
+  width: 50pc;
+}
+
+/*relative units*/
+span {
+  font-size: 1.2em;
+}
+
+h1 {
+  font-size: 5vmin;
+}
+
+h2 {
+  font-size: 4vmax;
 }

@@ -41,3 +41,31 @@ a:hover {
 h2, h3 {
   font-family: cursive;
 }
+
+/*Descendant Combinator (element element)*/
+section ol {
+  background-color: lightgreen;
+}
+
+/*Child Combinator (element > element)*/
+main > p {
+  background-color: lightcoral;
+}
+
+/*General sibling combinator (element ~ element)*/
+/* Paragraphs that are siblings of and subsequent to any image */
+   img ~ p {
+    color: darkmagenta;
+  }
+  
+
+/*Adjacent sibling combinator (element + element)*/
+/* Paragraphs that come immediately after any image */
+h5 + label {
+  color : red
+}
+
+/*Combining Two Selectors (element.class)*/
+#Intro.general {
+  color : green
+}

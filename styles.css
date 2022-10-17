@@ -85,6 +85,8 @@ span {
 h1 {
   font-size: 5vmin;
   margin: auto;
+  text-decoration: underline green double;
+  text-align: center;
 }
 
 h2 {

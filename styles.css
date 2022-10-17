@@ -1,6 +1,11 @@
-/*Class Selector (.class)*/
-.body {
-  background-color: #abd3f5;
+body {
+  background-color: lightgreen;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
 }
 
 /*Element Selector (element) */
@@ -139,4 +144,54 @@ img.relative {
 img.static {
   position: static;
   left: 30px;
+}
+
+button:hover { color: red; }
+button:active { font-weight: bold; }
+
+/*flex*/
+.flex-container {
+  display: flex;
+  background-color: antiquewhite;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.flex-container > button {
+  background-color:aqua;
+  width: 5em;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 10px;
+  row-gap: 16px;
+  background-color: royalblue;
+  padding: 15px;
+}
+
+.grid-container > div {
+  background-color: antiquewhite;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item3 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+}
+
+
+@font-face {
+  font-family: myFirstFont;
+  src:"Roboto/Roboto-Bold.ttf";
+}
+
+button {
+  font-family: myFirstFont;
 }

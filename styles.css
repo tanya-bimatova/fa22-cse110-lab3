@@ -73,8 +73,8 @@ h5 + label {
 /*abs units*/
 p {
   font-size: 20pt;
-  line-height: 40px;
-  width: 50pc;
+  line-height: 40px;  
+  min-width: 50px;
 }
 
 /*relative units*/
@@ -85,6 +85,8 @@ span {
 h1 {
   font-size: 5vmin;
   margin: auto;
+  text-decoration: underline green double;
+  text-align: center;
 }
 
 h2 {
@@ -115,3 +117,26 @@ ol {
 
 }
 
+h3 {
+  color: purple;
+  height: 2em;
+}
+
+/*Display*/
+h3.ex2 {
+  display: block;
+  max-width: 150px;
+}
+h3.ex1 {
+  display: inline;
+}
+
+/*Position*/
+img.relative {
+  position: relative;
+  left: 30px;
+}
+img.static {
+  position: static;
+  left: 30px;
+}

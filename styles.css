@@ -84,8 +84,34 @@ span {
 
 h1 {
   font-size: 5vmin;
+  margin: auto;
 }
 
 h2 {
   font-size: 4vmax;
 }
+
+span {
+  border: 2px solid gray;
+  margin: 10px 50px 20px 4em;
+
+  width: 500px;
+  padding: 2px 2px 2px;
+  
+}
+
+ol {
+  border-width: 1px;
+  border-style: solid;
+  border-color: blue;
+  border-radius: 30px;
+
+  margin-top: -10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 4em;
+
+  padding: 5px 1em 0 2em;
+
+}
+
